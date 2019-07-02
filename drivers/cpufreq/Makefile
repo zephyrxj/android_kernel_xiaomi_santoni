@@ -15,7 +15,11 @@ obj-$(CONFIG_CPU_FREQ_GOV_COMMON)		+= cpufreq_governor.o
 obj-$(CONFIG_CPU_BOOST)			+= cpu-boost.o
 
 obj-$(CONFIG_CPUFREQ_DT)		+= cpufreq-dt.o
+<<<<<<< HEAD
 EXTRA_CFLAGS += -Wno-implicit-function-declaration -Wno-int-conversion
+=======
+obj-$(CONFIG_FINGERPRINT_BOOST)		+= fp-boost.o
+>>>>>>> 2d2cc537fdbc... cpufreq: Introduce fingerprint boost driver (2/3)
 
 ##################################################################################
 # x86 drivers.
