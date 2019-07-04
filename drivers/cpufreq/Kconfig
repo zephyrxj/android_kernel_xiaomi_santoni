@@ -303,8 +303,7 @@ config CPU_FREQ_DEFAULT_GOV_YANKACTIVE
 	  you to get a full dynamic cpu frequency capable system by simply
 	  loading your cpufreq low-level hardware driver, using the
 	  'yankactive' governor for latency-sensitive workloads.
-	
->>>>>>> 384cc0547f36... added a lot of governors
+
 endchoice
 
 config CPU_FREQ_GOV_PERFORMANCE
@@ -578,7 +577,6 @@ config CPU_FREQ_GOV_YANKACTIVE
 	  and can be achieved using interactive with a script. This is added for
 	  simplification purposes for myself.
 	  
->>>>>>> 384cc0547f36... added a lot of governors
 comment "CPU frequency scaling drivers"
 
 config CPUFREQ_DT
