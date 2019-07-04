@@ -129,8 +129,6 @@ config CPU_FREQ_DEFAULT_GOV_SCHED
 	  Use the CPUfreq governor 'sched' as default. This scales
 	  cpu frequency using CPU utilization estimates from the
 	  scheduler.
-<<<<<<< HEAD
-=======
 
 config CPU_FREQ_DEFAULT_GOV_INTERACTIVEX
 	bool "interactivex"
@@ -415,8 +413,6 @@ config CPU_FREQ_GOV_SCHED
 
 	  If in doubt, say N.
 
-<<<<<<< HEAD
-=======
  config CPU_FREQ_GOV_IMPULSE
 	tristate "'impulse' cpufreq policy governor"
 	help
