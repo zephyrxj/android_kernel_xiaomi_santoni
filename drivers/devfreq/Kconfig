@@ -170,9 +170,7 @@ config DEVFREQ_GOV_MEMLAT
 	  monitor if it determines that a workload is memory latency bound. Since
 	  this uses target specific counters it can conflict with existing profiling
 	  tools.
-<<<<<<< HEAD
-=======
-
+	  
 config DEVFREQ_GOV_MSM_ADRENO_PLUS
 	tristate "MSM Adreno Trustzone Plus"
 	depends on MSM_KGSL && MSM_SCM
@@ -208,7 +206,6 @@ config ADRENO_IDLER
 	  just for calculating frequency for idle to reduce the
 	  wasted power coming from stock Adreno TZ while
 	  maintaining high-performance.
->>>>>>> 36497388719f... add some GPU governors (1/4)
 
 comment "DEVFREQ Drivers"
 
