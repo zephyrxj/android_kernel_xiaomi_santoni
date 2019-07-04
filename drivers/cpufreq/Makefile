@@ -11,8 +11,6 @@ obj-$(CONFIG_CPU_FREQ_GOV_USERSPACE)	+= cpufreq_userspace.o
 obj-$(CONFIG_CPU_FREQ_GOV_ONDEMAND)	+= cpufreq_ondemand.o
 obj-$(CONFIG_CPU_FREQ_GOV_CONSERVATIVE)	+= cpufreq_conservative.o
 obj-$(CONFIG_CPU_FREQ_GOV_INTERACTIVE)	+= cpufreq_interactive.o
-<<<<<<< HEAD
-=======
 obj-$(CONFIG_CPU_FREQ_GOV_INTERACTIVEX) += cpufreq_interactivex.o
 obj-$(CONFIG_CPU_FREQ_GOV_ONDEMANDX)  	+= cpufreq_ondemandx.o
 obj-$(CONFIG_CPU_FREQ_GOV_CONSERVATIVEX)	+= cpufreq_conservativex.o
@@ -36,16 +34,11 @@ obj-$(CONFIG_CPU_FREQ_GOV_WAVE)	+= cpufreq_wave.o
 obj-$(CONFIG_CPU_FREQ_GOV_WHEATLEY)	+= cpufreq_wheatley.o
 obj-$(CONFIG_CPU_FREQ_GOV_YANKACTIVE)		+= cpufreq_yankactive.o
 obj-$(CONFIG_CPU_FREQ_GOV_ZZMOOVE)	+= cpufreq_zzmoove.o
->>>>>>> cc8e7c6d6521... added a lot of governors
 obj-$(CONFIG_CPU_FREQ_GOV_COMMON)		+= cpufreq_governor.o
 obj-$(CONFIG_CPU_BOOST)			+= cpu-boost.o
 
 obj-$(CONFIG_CPUFREQ_DT)		+= cpufreq-dt.o
-<<<<<<< HEAD
-EXTRA_CFLAGS += -Wno-implicit-function-declaration -Wno-int-conversion
-=======
 obj-$(CONFIG_FINGERPRINT_BOOST)		+= fp-boost.o
->>>>>>> 2d2cc537fdbc... cpufreq: Introduce fingerprint boost driver (2/3)
 
 ##################################################################################
 # x86 drivers.
