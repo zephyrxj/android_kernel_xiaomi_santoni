@@ -430,19 +430,12 @@ enum wake_reason {
 #define	HVDCP_OTG_VOTER			"HVDCP_OTG_VOTER"
 #define	HVDCP_PULSING_VOTER		"HVDCP_PULSING_VOTER"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-static int smbchg_debug_mask = 0;
-=======
-=======
->>>>>>> 4f9a79f81e70... fix wakeup delay
 /* fg cc workaround */
 #if defined(CONFIG_MACH_XIAOMI_MIDO)
 #define NO_CHARGE_COUNTER
 #endif
 
 static int smbchg_debug_mask;
->>>>>>> 4f9a79f81e70... fix wakeup delay
 module_param_named(
 	debug_mask, smbchg_debug_mask, int, S_IRUSR | S_IWUSR
 );
